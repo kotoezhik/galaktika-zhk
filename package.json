@@ -1,0 +1,14 @@
+{
+  "name": "gulp_project",
+  "version": "1.0.0",
+  "description": "Example",
+  "main": "gulpfile.js",
+  "author": "Ivan Kondratyev <is.kondratyev@mail.ru>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.8.11",
+    "gulp-watch": "^4.3.11"
+  }
+}

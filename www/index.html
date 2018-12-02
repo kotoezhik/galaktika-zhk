@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <title>Real House - Real Estate HTML Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!-- External CSS libraries -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/bootstrap-submenu.css">
+  <link rel="stylesheet" href="css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+  <link rel="stylesheet" href="css/map.css" type="text/css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="fonts/linearicons/style.css">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="css/dropzone.css">
+  <link rel="stylesheet" href="css/slick.css">
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" id="style_sheet" href="css/skins/default.css">
+  <link rel="stylesheet" href="css/theme.css">
+
+  <!-- Favicon icon -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+  <!-- Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link rel="stylesheet" href="css/ie10-viewport-bug-workaround.css">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="page_loader"></div>
+
+  <div class="links" style="display: none;">
+    <ul>
+      <li><a href="https://galaktika-lenspecsmu.ru" target="_blank">galaktika-lenspecsmu.ru</a></li>
+      <li><a href="http://zhk-galaktika.ru/" target="_blank">zhk-galaktika.ru</a></li>
+      <li><a href="https://official-zhk.ru" target="_blank">official-zhk.ru</a></li>
+      <li><a href="http://жк-галактика-спб.рф/" target="_blank">жк-галактика-спб.рф/</a></li>
+      <li><a href="http://jk-galactica-premium.ru/" target="_blank">jk-galactica-premium.ru/</a></li>
+    </ul>
+  </div>
+  <!-- Top header start -->
+  <header class="top-header top-header-bg d-none d-xl-block d-lg-block d-md-block" id="top-header-2">
+    <div class="container">
+      <div class="row">
+        <!--div class="col-lg-6 col-md-8 col-sm-7"-->
+        <div class="col-12 text-center">
+          <div class="list-inline">
+            <a href="tel:+78129064500"><i class="fa fa-phone"></i>+7(812) 906-45-00</a>
+            <!--a href="tel:info@themevessel.com"><i class="fa fa-envelope"></i>info@themevessel.com</a-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Top header end -->
+
+  <!-- Main header start -->
+  <header class="main-header" id="nav-main">
+    <div class="container-fluid">
+      <nav class="row navbar navbar-expand-lg navbar-light">
+        <div class="header-logos col-lg-4 offset-lg-1 col-12">
+          <a class="navbar-brand logo" href="#">
+            <img src="img/logo-agency.png" alt="logo">
+          </a>
+          <img src="img/logo-zk.png" alt="">
+          <img src="img/logozastr.jpg" alt="">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse col-lg-6 offset-lg-1 col-12" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#" id="navbarDropdownMenuLink">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" id="navbarDropdownMenuLink2">О квартале</a></li>
+            <li class="nav-item"><a class="nav-link" href="" id="dropdown01">Инфраструктура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" id="navbarDropdownMenuLink5">Планировки</a></li>
+            <li class="nav-item"><a href="submit-property.html" class="nav-link link-color">О застройщике</a></li>
+            <li class="nav-item"><a href="submit-property.html" class="nav-link link-color">Ипотека</a></li>
+            <li class="nav-item"><a href="submit-property.html" class="nav-link link-color">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Main header end -->
+
+  <!-- .top-banner start -->
+  <div class="top-banner" id="banner">
+    <div class="container">
+      <div class="row text-center">
+        <div class="top-banner__content col-md-6 offset-md-3 col-12 offset-0">
+          <h1 class="text-uppercase" data-animation="animated fadeInDown delay-05s">ЖК Галактика</h1>
+          <p data-animation="animated fadeInUp delay-10s">Квартиры комфорт-класса от надежного застройщика!</p>
+          <p>Телефон офиса продаж: <a href="tel:+78129064500">+7 812 906-45-00</a></p>
+          <a href="#" class="btn btn-white">Скачайте презентацию комплекса!</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- .top-banner end -->
+
+  <!-- slider-start -->
+  <div class="banner slider-big" id="advantages">
+    <div id="bannerCarousole" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item banner-max-height active">
+          <img class="d-block w-100" src="img/advantages-photo_one2.png" alt="banner-1">
+          <div class="carousel-caption banner-slider-inner d-flex h-100">
+            <div class="carousel-content container">
+              <div class="row">
+                <div class="text-center">
+                  <h3 class="text-uppercase" data-animation="animated fadeInDown delay-05s">Развитая инфраструктура</h3>
+                  <p data-animation="animated fadeInUp delay-10s">Всё для комфортной жизни в шаговой доступности: </p>
+                  <ul class="text-left">
+                    <li>детские сады, школы, вузы;</li>
+                    <li>медучреждения; </li>
+                    <li>кафе, рестораны, кинотеатр, спорт клуб;</li>
+                    <li>торговые центры; </li>
+                    <li>продуктовые гипер- и супермаркеты.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item banner-max-height">
+          <img class="d-block w-100" src="img/advantages-photo_two2.png" alt="banner-2">
+          <div class="carousel-caption banner-slider-inner d-flex h-100">
+            <div class="carousel-content container">
+              <div class="text-right">
+                <h3 class="text-uppercase" data-animation="animated fadeInDown delay-05s">Удобное местоположение</h3>
+                <p data-animation="animated fadeInUp delay-10s">Всё для комфортной жизни в шаговой доступности:</p>
+                <ul class="">
+                  <li>В самом центре Санкт-Петербурга. Метро «Балтийская», «Фрунзенская» «Московские ворота» – от 350 м до 1000 м</li>
+                  <li>ЗСД – 2,5 км</li>
+                  <li>КАД – 7 км</li>
+                  <li>Московский проспект – 0,5 км</li>
+                  <li>Лиговский проспект – 2 км</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item banner-max-height">
+          <img class="d-block w-100" src="img/advantages-photo_three2.png" alt="banner-3">
+          <div class="carousel-caption banner-slider-inner d-flex h-100">
+            <div class="carousel-content container">
+              <div class="text-left">
+                <h3 class="text-uppercase" data-animation="animated fadeInDown delay-05s">Технология строительства</h3>
+                <p data-animation="animated fadeInUp delay-10s">Для экологичной и безопасной жизни применяются:</p>
+                <ul class="">
+                  <li>вентилируемые фасады,</li>
+                  <li>кирпично-монолитное строительство,</li>
+                  <li>BIM-проектирование,</li>
+                  <li>система контроля.</li>
+                  <li>“Узнать подробнее” (форма с 1 полем (номер тел)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#bannerCarousole" role="button" data-slide="prev">
+        <span class="slider-mover-left" aria-hidden="true">
+          <i class="fa fa-angle-left"></i>
+        </span>
+      </a>
+      <a class="carousel-control-next" href="#bannerCarousole" role="button" data-slide="next">
+        <span class="slider-mover-right" aria-hidden="true">
+          <i class="fa fa-angle-right"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+  <!-- slider end -->
+
+  <!-- Преимущества комплекса start -->
+  <div class="featured-properties content-area-9">
+    <div class="container">
+      <!-- Main title -->
+      <div class="main-title">
+        <h2>Преимущества комплекса</h2>
+        <!--p>Find Your Properties In Your City</p-->
+      </div>
+
+      <div class="slick-slider-area">
+        <div class="row slick-carousel" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+          <div class="slick-slide-item">
+            <div class="property-box">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="img/advantages-photo_one2.png" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h2 class="title">
+                  Развитая инфраструктура
+                </h2>
+                <p>Всё для комфортной жизни в шаговой доступности: </p>
+                <ul class="">
+                  <li>детские сады, школы, вузы;</li>
+                  <li>медучреждения; </li>
+                  <li>кафе, рестораны, кинотеатр, спорт клуб;</li>
+                  <li>торговые центры; </li>
+                  <li>продуктовые гипер- и супермаркеты.</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="property-box">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="img/advantages-photo_three2.png" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h2 class="title">Удобное местоположение</h2>
+                <p>Всё для комфортной жизни в шаговой доступности: </p>
+                <ul class="">
+                  <li>В самом центре Санкт-Петербурга. Метро «Балтийская», «Фрунзенская» «Московские ворота» – от 350 м до 1000 м</li>
+                  <li>ЗСД – 2,5 км</li>
+                  <li>КАД – 7 км</li>
+                  <li>Московский проспект – 0,5 км</li>
+                  <li>Лиговский проспект – 2 км</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="property-box">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="img/advantages-photo_two2.png" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h2 class="title">Технология строительства</h2>
+                <p>Для экологичной и безопасной жизни применяются:</p>
+                <ul class="">
+                  <li>вентилируемые фасады,</li>
+                  <li>кирпично-монолитное строительство,</li>
+                  <li>BIM-проектирование,</li>
+                  <li>система контроля.</li>
+                  <li>“Узнать подробнее” (форма с 1 полем (номер тел)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="property-box">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="img/advantages-photo_three2.png" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h2 class="title">Удобное местоположение</h2>
+                <p>Всё для комфортной жизни в шаговой доступности: </p>
+                <ul class="">
+                  <li>В самом центре Санкт-Петербурга. Метро «Балтийская», «Фрунзенская» «Московские ворота» – от 350 м до 1000 м</li>
+                  <li>ЗСД – 2,5 км</li>
+                  <li>КАД – 7 км</li>
+                  <li>Московский проспект – 0,5 км</li>
+                  <li>Лиговский проспект – 2 км</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slick-prev slick-arrow-buton">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="slick-next slick-arrow-buton">
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Преимущества комплекса end -->
+
+  <!-- Yandex maps start -->
+  <section class="b-yamaps">
+    <h2 class="text-center">Инфраструктура</h2>
+    <div class="b-yamaps__map-container container-fluid">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7b180a16cc15cc0c2c030fbbf3e324efb3d193e53abf4c88d9765cd379584f01&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+  </section>
+  <!-- Yandex maps end -->
+
+  <!-- Планировки -->
+  <div class="featured-properties content-area">
+    <div class="container">
+      <!-- Main title -->
+      <div class="main-title">
+        <h2 class="text-center">Планировки</h2>
+      </div>
+      <ul class="list-inline-listing filters filteriz-navigation">
+        <li class="active btn filtr-button filtr" data-filter="all">Все</li>
+        <li data-filter="10" class="btn btn-inline filtr-button filtr">Студии</li>
+        <li data-filter="1" class="btn btn-inline filtr-button filtr">1-комнатные</li>
+        <li data-filter="2" class="btn btn-inline filtr-button filtr">2-комнатные</li>
+        <li data-filter="3" class="btn btn-inline filtr-button filtr">3-комнатные</li>
+      </ul>
+      <div class="row filter-portfolio">
+        <div class="cars">
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="10">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="img/img-plan-stud-01.png" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h3 class="title">
+                  <a href="properties-details.html">Студия</a>
+                </h3>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="10">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="img/img-plan-stud-02.jpg" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h3 class="title">
+                  <a href="properties-details.html">Студия</a>
+                </h3>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="1">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="http://placehold.it/350x233" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h3 class="title">
+                  <a href="properties-details.html">1-комнатная</a>
+                </h3>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="2">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="http://placehold.it/350x233" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h3 class="title">
+                  <a href="properties-details.html">2-комнатная</a>
+                </h3>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="3">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="http://placehold.it/350x233" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <h3 class="title">
+                  <a href="properties-details.html">3-комнатная</a>
+                </h3>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="2">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="http://placehold.it/350x233" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <div class="title">
+                  <a href="properties-details.html">2-комнатная</a>
+                </div>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="3">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="http://placehold.it/350x233" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <div class="title">
+                  <a href="properties-details.html">3-комнатная</a>
+                </div>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 filtr-item" data-category="10">
+            <div class="property-box-3">
+              <div class="property-thumbnail">
+                <a href="properties-details.html" class="property-img">
+                  <img class="d-block w-100" src="http://placehold.it/350x233" alt="properties">
+                </a>
+              </div>
+              <div class="detail">
+                <div class="title">
+                  <a href="properties-details.html">Студия</a>
+                </div>
+                <div class="location">
+                  <a href="properties-details.html" tabindex="0">
+                    <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                  </a>
+                </div>
+              </div>
+              <ul class="facilities-list clearfix">
+                <li>
+                  <i class="flaticon-square"></i>
+                  <p>Sq Ft:3400</p>
+                </li>
+                <li>
+                  <i class="flaticon-furniture"></i>
+                  <p>3 Beds</p>
+                </li>
+                <li>
+                  <i class="flaticon-holidays"></i>
+                  <p>2 Bath</p>
+                </li>
+              </ul>
+              <div class="footer clearfix">
+                <div class="pull-left days">
+                  <p>$540,000</p>
+                </div>
+                <div class="pull-right">
+                  <a href="properties-details.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Планировки end -->
+
+  <!-- Скидки и акции -->
+  <div class="testimonial-3">
+    <div class="container">
+      <div class="main-title">
+        <h2>Скидки и акции</h2>
+      </div>
+      <div class="slick-slider-area">
+        <div class="row slick-carousel" data-slick='{"slidesToShow": 2, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+          <div class="slick-slide-item">
+            <div class="testimonial-inner">
+              <div class="content-box">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img src="http://placehold.it/50x50" alt="testimonial-avatar" class="img-fluid">
+                </a>
+                <div class="media-body align-self-center">
+                  <h5>
+                    Eliane Perei
+                  </h5>
+                  <h6>Web Developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="testimonial-inner">
+              <div class="content-box">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img src="http://placehold.it/50x50" alt="testimonial-avatar" class="img-fluid">
+                </a>
+                <div class="media-body align-self-center">
+                  <h5>
+                    Maria Blank
+                  </h5>
+                  <h6>Office Manager</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="testimonial-inner">
+              <div class="content-box">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img src="http://placehold.it/50x50" alt="testimonial-avatar" class="img-fluid">
+                </a>
+                <div class="media-body align-self-center">
+                  <h5>
+                    Karen Paran
+                  </h5>
+                  <h6>Support Manager</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Скидки и акции end -->
+
+  <!-- Services 2 start -->
+  <div class="services-2 content-area-5 bg-grea-3">
+    <div class="container">
+      <!-- Main title -->
+      <div class="main-title">
+        <h1>What are you looking for?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor.</p>
+      </div>
+      <div class="row wow">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft delay-04s">
+          <div class="service-info-5">
+            <i class="flaticon-apartment"></i>
+            <h4>Apartments</h4>
+            <p>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft delay-04s">
+          <div class="service-info-5">
+            <i class="flaticon-internet"></i>
+            <h4>Houses</h4>
+            <p>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInRight delay-04s">
+          <div class="service-info-5">
+            <i class="flaticon-vehicle"></i>
+            <h4>Garages</h4>
+            <p>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInRight delay-04s">
+          <div class="service-info-5">
+            <i class="flaticon-coins"></i>
+            <h4>Commercial</h4>
+            <p>Lorem ipsum dolor sit amet, consectur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center read-more-2">
+        <a href="services-1.html" class="btn-white">Read More</a>
+      </div>
+    </div>
+  </div>
+  <!-- Services 2 end -->
+
+  <!-- Categories strat -->
+  <div class="categories content-area-8">
+    <div class="container">
+      <!-- Main title -->
+      <div class="main-title">
+        <h1>Most Popular Places</h1>
+        <p>Find Property In Your City</p>
+      </div>
+
+      <div class="row wow">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-sm-6 wow fadeInLeft delay-04s col-pad">
+              <div class="category">
+                <div class="category_bg_box cat-1-bg">
+                  <div class="category-overlay">
+                    <div class="category-content">
+                      <h3 class="category-title">
+                        <a href="#">Apartment</a>
+                      </h3>
+                      <a href="properties-list-rightside.html" class="category-subtitle">14 Properties</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 wow fadeInLeft delay-04s col-pad">
+              <div class="category">
+                <div class="category_bg_box cat-2-bg">
+                  <div class="category-overlay">
+                    <div class="category-content">
+                      <h3 class="category-title">
+                        <a href="#">House</a>
+                      </h3>
+                      <a href="properties-list-rightside.html" class="category-subtitle">98 Properties</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 wow fadeInUp delay-04s col-pad">
+              <div class="category">
+                <div class="category_bg_box cat-3-bg">
+                  <div class="category-overlay">
+                    <div class="category-content">
+                      <h3 class="category-title">
+                        <a href="#">Villa</a>
+                      </h3>
+                      <a href="properties-list-rightside.html" class="category-subtitle">98 Properties</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12 wow fadeInRight delay-04s col-pad d-none d-xl-block d-lg-block">
+          <div class="category">
+            <div class="category_bg_box category_long_bg cat-4-bg">
+              <div class="category-overlay">
+                <div class="category-content">
+                  <h3 class="category-title">
+                    <a href="#">Farm</a>
+                  </h3>
+                  <a href="properties-list-rightside.html" class="category-subtitle">12 Properties</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Categories end-->
+
+  <!-- Counters strat -->
+  <div class="counters overview-bgi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInLeft delay-04s">
+          <div class="media counter-box">
+            <div class="media-left">
+              <i class="flaticon-tag"></i>
+            </div>
+            <div class="media-body">
+              <h1 class="counter">967</h1>
+              <p>Listings For Sale</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInLeft delay-04s">
+          <div class="media counter-box">
+            <div class="media-left">
+              <i class="flaticon-business"></i>
+            </div>
+            <div class="media-body">
+              <h1 class="counter">1276</h1>
+              <p>Listings For Rent</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInRight delay-04s">
+          <div class="media counter-box">
+            <div class="media-left">
+              <i class="flaticon-people"></i>
+            </div>
+            <div class="media-body">
+              <h1 class="counter">396</h1>
+              <p>Agents</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 wow fadeInRight delay-04s">
+          <div class="media counter-box">
+            <div class="media-left">
+              <i class="flaticon-people-1"></i>
+            </div>
+            <div class="media-body">
+              <h1 class="counter">177</h1>
+              <p>Brokers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Counters end -->
+
+  <!-- Our team 2 start -->
+  <div class="our-team-2 content-area">
+    <div class="container">
+      <!-- Main title -->
+      <div class="main-title">
+        <h1>Our Agent</h1>
+        <p>Meet out small team that make those great products.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft delay-04s">
+          <div class="team-1">
+            <div class="team-photo">
+              <a href="#">
+                <img src="http://placehold.it/255x212" alt="agent-2" class="img-fluid">
+              </a>
+            </div>
+            <div class="team-details">
+              <h5><a href="#">Martin Smith</a></h5>
+              <h6>Web Developer</h6>
+              <ul class="social-list clearfix">
+                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 wow fadeInLeft delay-04s">
+          <div class="team-1">
+            <div class="team-photo">
+              <a href="#">
+                <img src="http://placehold.it/255x212" alt="agent-2" class="img-fluid">
+              </a>
+            </div>
+            <div class="team-details">
+              <h5><a href="#">John Pitarshon</a></h5>
+              <h6>Creative Director</h6>
+              <ul class="social-list clearfix">
+                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 d-none d-xl-block d-lg-block wow fadeInRight delay-04s">
+          <div class="team-1">
+            <div class="team-photo">
+              <a href="#">
+                <img src="http://placehold.it/255x212" alt="agent-2" class="img-fluid">
+              </a>
+            </div>
+            <div class="team-details">
+              <h5><a href="#">Maria Blank</a></h5>
+              <h6>Office Manager</h6>
+              <ul class="social-list clearfix">
+                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 d-none d-xl-block d-lg-block wow fadeInRight delay-04s">
+          <div class="team-1">
+            <div class="team-photo">
+              <a href="#">
+                <img src="http://placehold.it/255x212" alt="agent-2" class="img-fluid">
+              </a>
+            </div>
+            <div class="team-details">
+              <h5><a href="#">Karen Paran</a></h5>
+              <h6>Support Manager</h6>
+              <ul class="social-list clearfix">
+                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our team 2 end -->
+
+  <!-- Testimonial 3 start -->
+  <div class="testimonial-3">
+    <div class="container">
+      <div class="main-title">
+        <h1>Our Testimonial</h1>
+      </div>
+      <div class="slick-slider-area">
+        <div class="row slick-carousel" data-slick='{"slidesToShow": 2, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+          <div class="slick-slide-item">
+            <div class="testimonial-inner">
+              <div class="content-box">
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-full"></i>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img src="http://placehold.it/50x50" alt="testimonial-avatar" class="img-fluid">
+                </a>
+                <div class="media-body align-self-center">
+                  <h5>
+                    Eliane Perei
+                  </h5>
+                  <h6>Web Developer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="testimonial-inner">
+              <div class="content-box">
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-full"></i>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img src="http://placehold.it/50x50" alt="testimonial-avatar" class="img-fluid">
+                </a>
+                <div class="media-body align-self-center">
+                  <h5>
+                    Maria Blank
+                  </h5>
+                  <h6>Office Manager</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="testimonial-inner">
+              <div class="content-box">
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-full"></i>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img src="http://placehold.it/50x50" alt="testimonial-avatar" class="img-fluid">
+                </a>
+                <div class="media-body align-self-center">
+                  <h5>
+                    Karen Paran
+                  </h5>
+                  <h6>Support Manager</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slide-item">
+            <div class="testimonial-inner">
+              <div class="content-box">
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-full"></i>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img src="http://placehold.it/50x50" alt="testimonial-avatar" class="img-fluid">
+                </a>
+                <div class="media-body align-self-center">
+                  <h5>
+                    John Pitarshon
+                  </h5>
+                  <h6>Creative Director</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial 3 end -->
+
+  <!-- Blog start -->
+  <div class="blog content-area">
+    <div class="container">
+      <!-- Main title -->
+      <div class="main-title">
+        <h1>Latest news</h1>
+        <p>Check out some recent news posts.</p>
+      </div>
+      <div class="row wow fadeInUp delay-04s">
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-1">
+            <div class="blog-photo">
+              <img src="http://placehold.it/350x194" alt="blog" class="img-fluid">
+              <div class="profile-user">
+                <img src="http://placehold.it/45x45" alt="user">
+              </div>
+            </div>
+            <div class="detail">
+              <div class="post-meta clearfix">
+                <ul>
+                  <li>
+                    <strong><a href="#">Antony</a></strong>
+                  </li>
+                  <li class="mr-0"><span>Feb 31, 2018</span></li>
+                  <li class="float-right mr-0"><a href="#"><i class="flaticon-interface"></i></a>15</li>
+                  <li class="float-right"><a href="#"><i class="flaticon-time"></i></a>5k</li>
+                </ul>
+              </div>
+              <h3>
+                <a href="blog-single-sidebar-right.html">Buying a Best House</a>
+              </h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-1">
+            <div class="blog-photo">
+              <img src="http://placehold.it/350x194" alt="blog" class="img-fluid">
+              <div class="profile-user">
+                <img src="http://placehold.it/45x45" alt="user">
+              </div>
+            </div>
+            <div class="detail">
+              <div class="post-meta clearfix">
+                <ul>
+                  <li>
+                    <strong><a href="#">Teseira</a></strong>
+                  </li>
+                  <li class="mr-0"><span>May 31, 2017</span></li>
+                  <li class="float-right mr-0"><a href="#"><i class="flaticon-interface"></i></a>15</li>
+                  <li class="float-right"><a href="#"><i class="flaticon-time"></i></a>5k</li>
+                </ul>
+              </div>
+              <h3>
+                <a href="blog-single-sidebar-right.html">Selling Your Real House</a>
+              </h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-none d-xl-block d-lg-block">
+          <div class="blog-1">
+            <div class="blog-photo">
+              <img src="http://placehold.it/350x194" alt="blog" class="img-fluid">
+              <div class="profile-user">
+                <img src="http://placehold.it/45x45" alt="user">
+              </div>
+            </div>
+            <div class="detail">
+              <div class="post-meta clearfix">
+                <ul>
+                  <li>
+                    <strong><a href="#">John Doe</a></strong>
+                  </li>
+                  <li class="mr-0"><span>May 31, 2017</span></li>
+                  <li class="float-right mr-0"><a href="#"><i class="flaticon-interface"></i></a>15</li>
+                  <li class="float-right"><a href="#"><i class="flaticon-time"></i></a>5k</li>
+                </ul>
+              </div>
+              <h3>
+                <a href="blog-single-sidebar-right.html">Find Your Dream Real Estate</a>
+              </h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blog end -->
+
+  <!-- Partners strat -->
+  <div class="partners">
+    <div class="container">
+      <h4>Brands $ Partners</h4>
+      <div class="slick-slider-area">
+        <div class="row slick-carousel" data-slick='{"slidesToShow": 5, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 3}}, {"breakpoint": 768,"settings":{"slidesToShow": 2}}]}'>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+          <div class="slick-slide-item"><img src="http://placehold.it/180x80" alt="brand" class="img-fluid"></div>
+        </div>
+        <div class="slick-prev slick-arrow-buton">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="slick-next slick-arrow-buton">
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Partners end -->
+
+  <!-- Footer start -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="row">
+        <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-item">
+            <h4>Contact Us</h4>
+
+            <ul class="contact-info">
+              <li>
+                Address: 20/F Green Road, Dhanmondi, Dhaka
+              </li>
+              <li>
+                Email: <a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+              </li>
+              <li>
+                Phone: <a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+              </li>
+              <li>
+                Fax: +0477 85X6 552
+              </li>
+            </ul>
+
+            <ul class="social-list clearfix">
+              <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+              <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-item">
+            <h4>
+              Useful Links
+            </h4>
+            <ul class="links">
+              <li>
+                <a href="#"><i class="fa fa-angle-right"></i>Home</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-right"></i>About Us</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-right"></i>Services</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-right"></i>properties Details</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-right"></i>My Account</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-right"></i>Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-angle-right"></i>properties Details</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+          <div class="footer-item clearfix">
+            <h4>
+              Gallery
+            </h4>
+
+            <ul class="gallery">
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="http://placehold.it/70x70" alt="sub-properties">
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-item clearfix">
+            <h4>Subscribe</h4>
+            <div class="Subscribe-box">
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+              <form action="#" method="GET">
+                <p>
+                  <input type="text" class="form-contact" name="email" placeholder="Enter Address">
+                </p>
+                <p>
+                  <button type="submit" name="submitNewsletter" class="btn btn-block button-theme">
+                    Subscribe
+                  </button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-12">
+          <p class="copy">© 2017 <a href="#">Theme Vessel.</a> Trademarks and brands are the property of their respective owners.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Full Page Search -->
+  <div id="full-page-search">
+    <button type="button" class="close">×</button>
+    <form action="index.html#">
+      <input type="search" value="" placeholder="type keyword(s) here" />
+      <button type="submit" class="btn btn-sm button-theme">Search</button>
+    </form>
+  </div>
+
+  <script src="js/jquery-2.2.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-submenu.js"></script>
+  <script src="js/rangeslider.js"></script>
+  <script src="js/jquery.mb.YTPlayer.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/bootstrap-select.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.scrollUp.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/leaflet.js"></script>
+  <script src="js/leaflet-providers.js"></script>
+  <script src="js/leaflet.markercluster.js"></script>
+  <script src="js/dropzone.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.filterizr.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.countdown.js"></script>
+  <script src="js/maps.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+  <!-- Custom javascript -->
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html>

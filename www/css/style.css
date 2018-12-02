@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1 {
   font-size: 3rem;
-  color: #ffffff;
+/*  color: #ffffff;*/
 }
 
 ul {
@@ -291,7 +291,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     border: none;
-    border-radius: 50px!important;
+    border-radius: 8px !important;
     background: #fff;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
 }
@@ -3756,11 +3756,11 @@ footer {
 }
 
 .cat-1-bg {
-    background-image: url(http://placehold.it/317x233);
+/*    background-image: url(http://placehold.it/317x233);*/
 }
 
 .cat-2-bg {
-    background-image: url(http://placehold.it/317x233);
+/*    background-image: url(http://placehold.it/317x233);*/
 }
 
 .cat-3-bg {

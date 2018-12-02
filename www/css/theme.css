@@ -1,6 +1,7 @@
 :root {
   --color-green: #1abc9c;
   --color-grey-dark: #333333;
+  --bg-white-btn-hover: #f5fff5;
 }
 
 #banner {
@@ -12,6 +13,10 @@
   -webkit-background-size: cover;
   background-size: cover;
   color: #333333;
+}
+
+#banner h1 {
+  color: #fff;
 }
 
 .top-banner,
@@ -75,6 +80,73 @@
   text-align: left;
 }
 
+.flat .property-thumbnail {
+  height: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flat__plan {
+  width: auto !important;
+  max-width: 350px;
+  max-height: 233px;
+  margin: 0 auto;
+}
+
+.events {
+  background: #f8f8f8;
+}
+
+.event {
+  padding: 0 30px;
+}
+
+.event .category-title {
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.event .category-content {
+  width: 70%;
+  top: 6rem;
+  bottom: initial;
+  left: 50%;
+}
+
+.event .category-overlay {
+  background-color: rgba(36, 42, 53, 0.6);
+}
+
+.event .category_bg_box {
+  background-position: center bottom;
+}
+.event_christmas .category_bg_box {
+  background-image: url(../img/special.jpg);
+}
+
+.event_ticket .category_bg_box {
+  background-image: url(../img/view3.jpg);
+}
+
+.event .btn {
+  font-size: 0.875rem;
+}
+
+.event .btn:hover {
+  color: #ffffff;
+  background: var(--color-green);
+}
+
+.page-personal-data h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: var(--color-grey-dark);
+}
+
 .page-personal-data .container p,
 .page-personal-data .container li {
 	font-size: 0.875rem;
@@ -85,10 +157,16 @@
 }
 
 .personal-data {
+  padding-top: 2rem;
   padding-bottom: 3rem;
 }
 
 .personal-data ul {
   padding-left: 2rem;
   margin-bottom: 1rem;
+}
+
+.page-404 .link-to-main a {
+  font-size: 1.5rem;
+  text-decoration: underline;
 }

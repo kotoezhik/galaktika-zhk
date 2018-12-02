@@ -59,9 +59,10 @@ a:hover {
 }
 
 p {
-    font-size: 14px;
-    line-height: 26px;
-    color: #535353;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 26px;
+  color: #535353;
 }
 
 strong {

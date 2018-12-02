@@ -74,3 +74,21 @@
 	max-width: 768px;
   text-align: left;
 }
+
+.page-personal-data .container p,
+.page-personal-data .container li {
+	font-size: 0.875rem;
+}
+
+.page-personal-data .container li {
+  list-style-type: disc;
+}
+
+.personal-data {
+  padding-bottom: 3rem;
+}
+
+.personal-data ul {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
